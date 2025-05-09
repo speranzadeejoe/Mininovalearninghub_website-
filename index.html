@@ -184,12 +184,13 @@
   }
 
  .carousel img {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
+  width: 300px; /* increase width */
+  height: 300px; /* increase height */
+  object-fit: cover;
+  border-radius: 12px;
   flex-shrink: 0;
-  transition: transform 0.3s;
-  }
+  transition: transform 0.3s ease;
+}
 
  .carousel-btn {
   position: absolute;
