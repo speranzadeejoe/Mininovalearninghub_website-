@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MiniNova Learning Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ccc;
+      text-decoration: underline;
+    }
+
+    .services {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #f9f9f9;
+      border: 1px solid #000;
+      border-radius: 8px;
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background-color: #000;
+      color: #fff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+   .download-section {
+  text-align: center;
+  padding: 50px 20px;
+  }
+
+  .button-container {
+  margin-top: 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  .review-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  }
+
+ .review-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+
+ .carousel-container {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+ }
+
+  .carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 20px;
+  }
+
+ .carousel img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+  transition: transform 0.3s;
+  }
+
+ .carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 5px 15px;
+  cursor: pointer;
+  opacity: 0.7;
+  z-index: 1;
+  border-radius: 50%;
+  }
+
+  .carousel-btn:hover {
+  opacity: 1;
+  }
+
+ .carousel-btn.prev {
+  left: 10px;
+ }
+
+ .carousel-btn.next {
+  right: 10px;
+ }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MiniNova Learning Hub</h1>
+  <p>Empowering young minds through holistic education</p>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXVAdTz1_G608sGcKE6CrpIDQtpuxUZ_05P0niF7lqh1Gxjw/viewform?pli=1" target="_blank">Enquiry Form</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    At MiniNova Learning Hub, we are dedicated to nurturing young minds through creative, academic, and physical development. 
+    Our expert educators and instructors provide a safe, supportive, and fun environment where children can explore their passions 
+    and develop essential life skills through Abacus, Bharatnatyam, Yoga, and more.
+  </p>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="card-container">
+    <a href="abacus.html" class="card">
+      <img src="abacus.jpg" alt="Abacus" />
+      <h3>Abacus</h3>
+      <p>Sharpen arithmetic skills through guided mental math training.</p>
+    </a>
+    <a href="bharatnatyam.html" class="card">
+      <img src="bharatnatyam.jpg" alt="Bharatnatyam" />
+      <h3>Bharatanatyam</h3>
+      <p>Learn classical dance with grace, rhythm, and expression.</p>
+    </a>
+    <a href="crafts.html" class="card">
+      <img src="crafts.jpg" alt="Crafts" />
+      <h3>Arts and Crafts</h3>
+      <p>Enhance creativity with hands-on art and craft sessions.</p>
+    </a>
+    <a href="english.html" class="card">
+      <img src="english.jpg" alt="English" />
+      <h3>Spoken English</h3>
+      <p>Improve fluency, grammar, and communication skills.</p>
+    </a>
+    <a href="tuition.html" class="card">
+      <img src="tuition.jpg" alt="Tuition" />
+      <h3>Tuition</h3>
+      <p>Focused academic support across various school subjects.</p>
+    </a>
+    <a href="yoga.html" class="card">
+      <img src="yoga.jpg" alt="Yoga" />
+      <h3>Yoga</h3>
+      <p>Enhance flexibility, focus, and wellness through yoga.</p>
+    </a>
+  </div>
+</section>
+<section id="reviews" class="review-section">
+  <h2>What Our Customers Say</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel">
+      <img src="review1.jpg" alt="Review 1">
+      <img src="review2.jpg" alt="Review 2">
+      <img src="review3.jpg" alt="Review 3">
+      <img src="review4.jpg" alt="Review 4">
+      <img src="review5.jpg" alt="Review 5">
+      <!-- Add more review images here -->
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+</section>
+<section id="download" class="download-section">
+  <h2>Downloads</h2>
+  <p>Download our brochure to explore all our programs and schedules.</p>
+  <div class="button-container">
+    <a href="BROCHURE.pdf" class="btn" download>Download Brochure</a>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    We'd love to hear from you! Reach out to us at <strong>mininovalearninghub@gmail.com</strong> or visit us at our center. 
+    You can also fill out our <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXVAdTz1_G608sGcKE6CrpIDQtpuxUZ_05P0niF7lqh1Gxjw/viewform?pli=1" target="_blank">Enquiry Form</a> for more details.
+  </p>
+</section>
+<section>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/mininova_learning_hub?utm_source=qr&igsh=MTJmZ2l6c3JvcjhhNQ==169" target="_blank">Mini Nova Instagram</a></p>
+    </section>
+
+<footer>
+  <p>&copy; 2025 MiniNova Learning Hub. All rights reserved.</p>
+</footer>
+<script>
+  const carousel = document.querySelector('.carousel');
+  const images = document.querySelectorAll('.carousel img');
+  const prevBtn = document.querySelector('.carousel-btn.prev');
+  const nextBtn = document.querySelector('.carousel-btn.next');
+
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const imageWidth = images[0].clientWidth + 20; // +20 for the gap
+    carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+  }
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateCarousel();
+    }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < images.length - 1) {
+      currentIndex++;
+      updateCarousel();
+    }
+  });
+
+  window.addEventListener('resize', updateCarousel); // Handle responsive layout
+</script>
+
+
+</body>
+</html>
