@@ -28,9 +28,9 @@ A brochure with more detailed information about the learning hub and its program
 
 ## Contact Us
 
-You can reach MiniNova Learning Hub via email at mininovalearninghub@gmail.com or by phone at +91 90421 86131. They are located in Chennai, Tamil Nadu, India.
+You can reach MiniNova Learning Hub via email at mininovalearninghub@gmail.com or by phone at +91 82484 05347 . we are located in Chennai, Tamil Nadu, India.
 
-## Follow Us
+## Follow Us & Visit Us
 
-Stay updated by following MiniNova Learning Hub on Instagram at @mininovalearninghub.
+ www.mininovalearninghub.com Stay updated by following MiniNova Learning Hub on Instagram at @mininovalearninghub or dm@ mininova_learning_hub.
 
