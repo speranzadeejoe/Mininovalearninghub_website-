@@ -26,9 +26,9 @@ The website includes a section showcasing customer testimonials and reviews (as 
 
 A brochure with more detailed information about the learning hub and its programs is available for download.
 
-## Contact Us
+## Contact Us @8248405347 via email at mininovalearninghub@gmail.com or Visit Us @ www.mininovalearninghub.com or dm@ mininova_learning_hub
 
-You can reach MiniNova Learning Hub via email at mininovalearninghub@gmail.com or by phone at +91 82484 05347 . we are located in Chennai, Tamil Nadu, India.
+ we are located in Velachery,Chennai, Tamil Nadu, India.
 
 ## Follow Us & Visit Us
 
